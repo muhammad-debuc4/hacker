@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker TJK - Информационный портал</title>
+    <meta name="description" content="Hacker TJK - ваш источник новостей о технологиях, кибербезопасности и IT в Таджикистане">
+    <meta name="keywords" content="хакер, таджикистан, технологии, кибербезопасность, IT, программирование">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00ff41">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Hacker TJK">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <i class="fas fa-shield-alt"></i>
+            <p>Загрузка Hacker TJK...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>Hacker TJK</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Главная</a>
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#news" class="nav-link">Новости</a>
+                <a href="#tutorials" class="nav-link">Обучение</a>
+                <a href="#tools" class="nav-link">Инструменты</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Hacker TJK</span>
+                    <br>Информационная безопасность
+                </h1>
+                <p class="hero-subtitle">
+                    Ваш надежный источник знаний о кибербезопасности, этичном хакинге и современных IT-технологиях в Таджикистане
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Узнать больше</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться с нами</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="cyber-grid">
+                    <div class="grid-line"></div>
+                    <div class="grid-line"></div>
+                    <div class="grid-line"></div>
+                    <div class="grid-line"></div>
+                </div>
+                <div class="floating-icons">
+                    <i class="fas fa-lock floating-icon"></i>
+                    <i class="fas fa-code floating-icon"></i>
+                    <i class="fas fa-bug floating-icon"></i>
+                    <i class="fas fa-shield-alt floating-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>О нас</h2>
+                <p>Кто мы и чем занимаемся</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Миссия Hacker TJK</h3>
+                    <p>Мы стремимся повысить уровень информационной безопасности в Таджикистане через образование, исследования и распространение знаний о этичном хакинге.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Обученных специалистов</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100+</h4>
+                            <p>Статей и туториалов</p>
+                        </div>
+                        <div class="stat">
+                            <h4>24/7</h4>
+                            <p>Поддержка сообщества</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Наши услуги</h2>
+                <p>Профессиональные решения в области кибербезопасности</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Аудит безопасности</h3>
+                    <p>Комплексная проверка систем на уязвимости и рекомендации по их устранению</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Обучение</h3>
+                    <p>Курсы по этичному хакингу, пентестингу и информационной безопасности</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Консультации</h3>
+                    <p>Экспертные консультации по внедрению систем информационной безопасности</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Bug Bounty</h3>
+                    <p>Программы вознаграждения за обнаружение уязвимостей в системах</p>
+                    <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>Последние новости</h2>
+                <p>Актуальная информация из мира кибербезопасности</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">15</span>
+                        <span class="month">ЯНВ</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Новые методы защиты от фишинга</h3>
+                        <p>Исследование показывает эффективность новых технологий машинного обучения в борьбе с фишинговыми атаками...</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">12</span>
+                        <span class="month">ЯНВ</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Обновления в OWASP Top 10</h3>
+                        <p>Список наиболее критичных уязвимостей веб-приложений получил важные обновления в 2025 году...</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">10</span>
+                        <span class="month">ЯНВ</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Конференция по кибербезопасности</h3>
+                        <p>Приглашаем на международную конференцию по информационной безопасности в Душанбе...</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials Section -->
+    <section id="tutorials" class="tutorials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Обучающие материалы</h2>
+                <p>Изучайте кибербезопасность с нашими экспертами</p>
+            </div>
+            <div class="tutorials-grid">
+                <div class="tutorial-card">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Основы криптографии</h3>
+                    <p>Изучите принципы шифрования и цифровых подписей</p>
+                    <div class="tutorial-meta">
+                        <span class="level beginner">Начинающий</span>
+                        <span class="duration">2 часа</span>
+                    </div>
+                    <a href="#" class="tutorial-btn">Начать обучение</a>
+                </div>
+                <div class="tutorial-card">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Пентестинг веб-приложений</h3>
+                    <p>Практические навыки тестирования на проникновение</p>
+                    <div class="tutorial-meta">
+                        <span class="level intermediate">Средний</span>
+                        <span class="duration">4 часа</span>
+                    </div>
+                    <a href="#" class="tutorial-btn">Начать обучение</a>
+                </div>
+                <div class="tutorial-card">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Сетевая безопасность</h3>
+                    <p>Защита сетевой инфраструктуры от атак</p>
+                    <div class="tutorial-meta">
+                        <span class="level advanced">Продвинутый</span>
+                        <span class="duration">6 часов</span>
+                    </div>
+                    <a href="#" class="tutorial-btn">Начать обучение</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <div class="section-header">
+                <h2>Инструменты безопасности</h2>
+                <p>Полезные утилиты для специалистов по кибербезопасности</p>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-key"></i>
+                        <h3>Генератор паролей</h3>
+                    </div>
+                    <div class="tool-body">
+                        <div class="password-generator">
+                            <input type="text" id="generated-password" readonly placeholder="Сгенерированный пароль">
+                            <div class="generator-options">
+                                <label>
+                                    <input type="range" id="password-length" min="8" max="64" value="16">
+                                    <span>Длина: <span id="length-value">16</span></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="include-numbers" checked>
+                                    <span>Цифры</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="include-symbols" checked>
+                                    <span>Символы</span>
+                                </label>
+                            </div>
+                            <button id="generate-password" class="tool-btn">Сгенерировать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Проверка IP</h3>
+                    </div>
+                    <div class="tool-body">
+                        <div class="ip-checker">
+                            <input type="text" id="ip-input" placeholder="Введите IP адрес">
+                            <button id="check-ip" class="tool-btn">Проверить</button>
+                            <div id="ip-result" class="tool-result"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-hash"></i>
+                        <h3>Генератор хэшей</h3>
+                    </div>
+                    <div class="tool-body">
+                        <div class="hash-generator">
+                            <textarea id="hash-input" placeholder="Введите текст для хэширования"></textarea>
+                            <select id="hash-type">
+                                <option value="md5">MD5</option>
+                                <option value="sha1">SHA-1</option>
+                                <option value="sha256">SHA-256</option>
+                            </select>
+                            <button id="generate-hash" class="tool-btn">Генерировать</button>
+                            <div id="hash-result" class="tool-result"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Связаться с нами</h2>
+                <p>Мы всегда готовы помочь в вопросах информационной безопасности</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@hacker-tjk.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <div>
+                            <h4>Telegram</h4>
+                            <p>@LINUX_ADMIN_01</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user-shield"></i>
+                        <div>
+                            <h4>Администратор</h4>
+                            <p>ADMIN_LINUX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Время работы</h4>
+                            <p>24/7 онлайн поддержка</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Выберите тему</option>
+                                <option value="consultation">Консультация</option>
+                                <option value="training">Обучение</option>
+                                <option value="audit">Аудит безопасности</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Hacker TJK</span>
+                    </div>
+                    <p>Ведущий портал по информационной безопасности в Таджикистане. Обучаем, защищаем, развиваем.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#tutorials">Обучение</a></li>
+                        <li><a href="#tools">Инструменты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#">Аудит безопасности</a></li>
+                        <li><a href="#">Пентестинг</a></li>
+                        <li><a href="#">Консультации</a></li>
+                        <li><a href="#">Обучение</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@hacker-tjk.org</li>
+                        <li><i class="fab fa-telegram"></i> @LINUX_ADMIN_01</li>
+                        <li><i class="fas fa-user-shield"></i> ADMIN_LINUX</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hacker TJK. Все права защищены. | Образовательный контент для изучения информационной безопасности.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+                      </html>
